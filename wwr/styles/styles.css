@@ -7,8 +7,8 @@
  
  #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    
  }
- 
  .button-box {
     text-align: center;
  }
@@ -116,4 +116,7 @@ h2 {
   }
   main section img{
     box-sizing: border-box;
+  }
+  #hero-img{
+    width: 100%;
   }
