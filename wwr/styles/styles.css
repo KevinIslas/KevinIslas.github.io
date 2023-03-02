@@ -28,7 +28,11 @@
  .button-box {
     text-align: center;
  }
- 
+ .button-box:hover {
+    transform: scale(1.1,1.1);
+    transition: 300ms;
+    
+ }
  main section {
     text-align: center;
  }
@@ -68,6 +72,7 @@ nav a:hover{
     background-color: #E7C24F;
     color: black;
     font-style: bold;
+    transition: 500ms;
 }
 .book, .join{
     background-color: #E7C24F;
